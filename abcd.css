@@ -1,0 +1,365 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color:rgb(226, 226, 249);
+}
+#bda{
+    height:1000px;
+    width:1120px;
+    margin-left:230px;
+    margin-right:200px;
+    margin-top:10px;
+    background-color:white;
+}
+#chota{
+  
+
+}
+#navbar{
+  
+    height:80px;
+    width:1100px;
+    display:flex;
+}
+#logo{
+    display:flex;
+    padding-left:30px;
+   padding-top:10px;
+   position:relative;
+   top:19px;
+}
+#logo h1{
+color:blue;
+padding-top:5px;
+font-size:20px;
+padding-left:10px;
+}
+#logo svg{
+    height:30px;
+    width:30px;
+}
+#line{
+    height:100px;
+    width:1100px;
+ background-color:rgb(239, 235, 235);
+   
+    display:flex;
+}
+#menu{
+    display:flex;
+    margin-left:200px;
+    box-sizing:border-box;
+    margin-top:40px;
+}
+#menu li{
+    list-style:none;
+    padding-left:20px;
+}
+#menu li a{
+    color:gray;
+    text-decoration:none;
+    font-size:20px;
+}
+#menu li a:hover{
+    color:blue;
+}
+#side{
+    margin-left:120px;
+    margin-top:35px;
+    display:flex;
+}
+#side svg{
+    height:25px;
+    width:25px;
+    margin-left:20px;
+}
+#ln{
+    height:25px;
+    width:2px;
+    background-color:black;
+    margin-left:20px;
+}
+#imag{
+    display:flex;
+    color:gray;
+}
+#imag img{
+    height:25px;
+    width:25px;
+    border-style:solid;
+    border-radius:10000000000000000000px;
+    border-color:rgba(0,0,0,0);
+    margin-left:5px;
+}
+#imag h1{
+    color:gray;
+    margin-left:5px;
+}
+#bar{
+    height:60px;
+    width:1050px;
+margin-left:20px;
+margin-right:20px;
+    background-color:white;
+    display:flex;
+    position:relative;
+    top:20px;
+    border-style:solid;
+    border-color:white;
+    border-radius:5px;
+}
+#bar svg{
+    height:20px;
+    width:20px;
+    margin-top:15px;
+    margin-left:8px;
+}
+#bar div{
+    border-right-style:solid;
+    border-right-color:gray;
+    border-width:2px;
+    display:flex;
+}
+#a,b{
+    width:170px;
+}
+#b{
+    width:240px;
+}
+#c{
+    width:170px;
+    padding-left:20px;
+}
+#b h3{
+    margin-top:12px;
+    margin-left:3px;
+    margin-right:2px;
+}
+#c p{
+    margin-top:12px;
+    margin-left:3px;
+    margin-right:2px;
+}
+#d{
+    width:170px;
+}
+#d p{
+    margin-top:12px;
+    margin-left:3px;
+    margin-right:2px;
+}
+#ic{
+    color:blue;
+    display:flex;
+    height:80px;
+    width:100px;
+    margin-left:20px;
+
+}
+#ic svg{
+    height:15px;
+    width:15px;
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    border-radius:6px;
+
+}
+#first{
+    display:flex;
+    border-right-style:solid;
+    border-right-color:gray;
+    border-right-width:2px;
+    width:340px;
+}
+#grid{
+    display:flex;
+    height:600px;
+    width:1100px;
+    background-color:white;
+}
+#left{
+    height:500px;
+    width:300px;
+   
+   margin-top:20px;
+   border-top-width:0.01px;
+   border-style:solid;
+   border-color:white;
+   border-radius:5px;
+}
+#right{
+    height:500px;
+    width:780px;
+    margin-left:20px;
+    margin-top:20px;
+}
+#e{
+    width:170px;
+    height:58px;
+    color:white;
+    background-color:blue;
+    border-style:solid;
+    border-color:blue;
+    box-sizing:border-box;
+    border-right-width:2px;
+  border-radius:5px;
+    margin-left:110px;
+    margin-right:0px;
+    font-weight:bold;
+    
+}
+#f1{
+    background-color:rgb(198, 244, 238);
+    height:160px;
+    width:300px;
+    border-top-width:2px;
+    border-top-style:solid;
+   border-radius:5px;
+   border-color:rgb(198, 244, 238);
+   position:relative;
+   left:0px;
+   right:0px;
+   margin-left:2px;
+   padding-left:8px;
+   padding-top:10px;
+}
+#f1 p{
+    margin-top:10px;
+}
+#f1 input{
+    margin-top:10px;
+    border-color:white;
+    border-radius:5px;
+    border-width:0px;
+    height:20px;
+}
+#btni{
+    margin-top:10px;
+    background-color:blue;
+    color:white;
+    padding-left:2px;
+    height:30px;
+    width:100px;
+    border-color:blue;
+    border-style:solid;
+    border-width:1px;
+    border-radius:5px;
+}
+#check{
+    display:flex;
+    margin-top:10px;
+    margin-left:10px;
+}
+#check p{
+    margin-left:20px;
+    padding-left:3px;
+}
+#pr{
+    height:30px;
+    width:30px;
+    background-color:gray;
+    border-radius:5px;
+    border-style:solid;
+    border-width:1px;
+    border-color:gray;
+
+}
+#pri{
+    height:25px;
+    width:30px;
+    background-color:gray;
+    border-radius:5px;
+    border-style:solid;
+    border-width:1px;
+    border-color:gray;
+}
+#f2 h1{
+    margin-top:10px;
+}
+#right h1{
+    font-size:30px;
+}
+#fl{
+    display:flex;
+}
+#fl svg{
+    height:40px;
+    width:40px;
+    margin-top:20px;
+    margin-left:10px;
+    background-color:purple;
+    border-width:1px;
+    border-style:solid;
+    border-color:purple;
+}
+#ide{
+    margin-left:100px;
+}
+#tr{
+    display:flex;
+
+}
+#br{
+    display:flex;
+}
+#tr div{
+    margin-left:40px;
+    margin-top:30px;
+}
+#br div{
+    margin-left:40px;
+    margin-top:30px;
+}
+#abc{
+    height:250px;
+    width:250px;
+    border-width:1px;
+    border-style:solid;
+    border-radius:5px;
+}
+#abc h1{
+    font-size:20px;
+    margin-top:10px;
+    margin-left:3px;
+}
+#abc p{
+    margin-left:3px;
+    margin-top:10px;
+}
+#but{
+    display:flex;
+}
+#ek{
+    display:flex;
+   position:relative;
+   right:60px;
+   bottom:40px;
+}
+#ek1{
+    color:blue;
+    background-color:rgb(110, 110, 255);
+    margin-left:5px;
+    width:50px;
+}
+#abc:hover{
+    height:300px;
+    width:300px;
+}
+#but{
+    position:relative;
+    bottom:30px;
+    margin-right:30px;
+}
+#but button{
+    margin-left:5px;
+}
+#msg{
+    height:30px;
+    width:70px;
+    margin-top:10px;
+}
+
